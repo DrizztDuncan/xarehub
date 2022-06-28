@@ -1,0 +1,35 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+}
+
+Navbar {
+  background-color: #000E36;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.text-green {
+  /* display: inline-block; */
+  width: 8vw;
+  text-align: center;
+  font-size: 16px;
+  color: rgb(61, 237, 218);
+}
