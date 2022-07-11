@@ -16,12 +16,12 @@ function SelectSpace () {
 return (
     <Listbox value={selectedSpace} onChange={setSelectedSpace} >
       
-      <Listbox.Button className="bg-white w-2/6 h-11 relative rounded-xl text-sm font-semibold flex flex-row justify-start items-center pl-3 ">
+      <Listbox.Button className="bg-white w-1/4 h-11 relative rounded-xl text-sm font-semibold flex flex-row justify-start items-center pl-3 ">
          <HiOutlineOfficeBuilding className=' text-blue-500 block' />
           {selectedSpace.name}
       </Listbox.Button>
 
-      <Listbox.Options  className=" bg-white absolute left-1/2 text-start text-sm font-semibold mt-10 cursor-pointer pl-2 ">
+      <Listbox.Options  className="w-1/4 bg-white absolute left-1/3 text-start text-sm font-semibold mt-12 ml-2 cursor-pointer pl-2 ">
         {space.map((person) => (
           <Listbox.Option
             key={person.id}
