@@ -19,12 +19,12 @@ function SelectLocation() {
   return (
     <Listbox value={selectedLocation} onChange={setSelectedLocation} >
       
-      <Listbox.Button className="bg-white w-30w h-11 relative rounded-xl text-sm font-semibold flex flex-row justify-start items-center pl-3 ">
+      <Listbox.Button className="bg-white w-2/6 h-11 relative rounded-xl text-sm font-semibold flex flex-row justify-start items-center pl-3 ">
          <FaMapMarkerAlt className=' text-blue-500 block' />
           {selectedLocation.name}
       </Listbox.Button>
 
-      <Listbox.Options  className="  30w bg-white absolute left-1/4 text-start text-sm font-semibold mt-10 cursor-pointer pl-2 ">
+      <Listbox.Options  className=" w-2/6 bg-white absolute left-1/4 text-start text-sm font-semibold mt-10 cursor-pointer pl-2 ">
         {branch.map((person) => (
           <Listbox.Option
             key={person.id}

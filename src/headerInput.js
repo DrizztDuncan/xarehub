@@ -12,7 +12,7 @@ function HeaderInput() {
 
   return (
 
-    <div className=' flex justify-evenly '>
+    <div className='w-80w flex justify-evenly '>
         <SelectLocation />
         <SelectSpace />
         <SelectDate />

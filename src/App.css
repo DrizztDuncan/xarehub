@@ -33,3 +33,11 @@ Navbar {
   font-size: 16px;
   color: rgb(61, 237, 218);
 }
+
+.react-datepicker-wrapper {
+  width: auto!important;
+}
+
+.css-b62m3t-container .css-1s2u09g-control {
+  border-width: 0;
+}

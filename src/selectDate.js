@@ -11,9 +11,9 @@ function SelectDate () {
 
     return (
       <DatePicker 
-        className=' w-10w h-11 relative rounded-xl text-sm font-semibold flex flex-row justify-start items-center pl-3 '
+        className='w-auto h-11 relative rounded-xl text-sm font-semibold flex flex-row justify-start items-center pl-3'
         selected={startDate} 
-        onChange={(date:Date) => setStartDate(date)} 
+        onChange={(date) => setStartDate(date)} 
       />
     )
 }

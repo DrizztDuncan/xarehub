@@ -16,7 +16,7 @@ function SelectSpace () {
 return (
     <Listbox value={selectedSpace} onChange={setSelectedSpace} >
       
-      <Listbox.Button className="bg-white w-30w h-11 relative rounded-xl text-sm font-semibold flex flex-row justify-start items-center pl-3 ">
+      <Listbox.Button className="bg-white w-2/6 h-11 relative rounded-xl text-sm font-semibold flex flex-row justify-start items-center pl-3 ">
          <HiOutlineOfficeBuilding className=' text-blue-500 block' />
           {selectedSpace.name}
       </Listbox.Button>

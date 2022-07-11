@@ -24,11 +24,12 @@ function SelectPeople () {
   // }
 return(
   // <div/>
-  <div className=" w-10w h-11 relative rounded-xl text-sm font-semibold flex flex-row justify-start items-center pl-3 ">
+  <div className=" h-11 relative !rounded-xl text-sm font-semibold flex flex-row justify-start items-center pl-3 ">
       <Select
         defaultValue={selectedOption}
         onChange={setSelectedOption}
         options={options}
+        className="rounded-xl"
       />
     </div>
   )
