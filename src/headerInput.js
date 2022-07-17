@@ -12,7 +12,7 @@ function HeaderInput() {
 
   return (
 
-    <div className='w-80w flex justify-evenly p-2 bg-blue-100 rounded-xl '>
+    <div className='w-80w flex justify-around	 py-2 bg-blue-2 rounded-2xl '>
         <SelectLocation />
         <SelectSpace />
         <SelectDate />

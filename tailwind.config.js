@@ -10,6 +10,7 @@ module.exports = {
       backgroundImage: {
         'theme-bg': 'url("./Background_01.svg")',
       },
+
       height: {
         "10v": "10vh",
         "20v": "20vh",
@@ -20,6 +21,7 @@ module.exports = {
         "70v": "70vh",
         "80v": "80vh",
         "90v": "90vh",
+        "d319h": "319px"
       },
 
       width: {
@@ -32,11 +34,18 @@ module.exports = {
         "70w": "70vw",
         "80w": "80vw",
         "90w": "90vw",
+        "d475w": "475px",
       },
 
       fontSize: {
         "4.5xl": "2.625rem",
-      }
+      },
+
+      colors: {
+        "blue-1": "#3c50ff",
+        "blue-2": "#ebedff",
+      },
+
     },
   },
   plugins: [

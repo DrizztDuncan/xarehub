@@ -14,7 +14,7 @@ const Navbar = () => {
     };
     window.addEventListener('scroll', changeNavbarColor);
     return (
-        <nav className="justify-around pt-2.5" onScroll={changeNavbarColor}>
+        <nav className="justify-around pt-2.5 z-50" onScroll={changeNavbarColor}>
                 <img src={logo} className="w-45" alt="logo" />
                     <ul className=" flex justify-between items-center  w-1/3">
                         <li className="text-white text-sm font-normal text-center w-full">聚落據點</li>
