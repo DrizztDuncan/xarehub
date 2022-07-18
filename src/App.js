@@ -3,6 +3,9 @@ import frame from './Background_01.svg';
 import Navbar from './navBar';
 import HeaderInput from './headerInput';
 import Section1 from './section1';
+import Section2 from './section2';
+import Section3 from './section3';
+import Section4 from './section4';
 import Tri_1 from './img/triangleBg.svg';
 import Tri_2 from './img/triangleBg_1.svg';
 import './App.css';
@@ -30,9 +33,10 @@ function App() {
       <img src={Tri_1} className=" w-60 absolute left-0 top-1/3" alt="bg triangle" /> 
       {/* background triangle */}
       <Section1 />
-      <img src={Tri_2} className=" w-60 absolute right-0 top-1/3" alt="bg triangle" /> 
-      <section></section>
-      
+      <img src={Tri_2} className=" w-60 absolute right-0 top-1/2" alt="bg triangle" /> 
+      <Section2 />
+      <Section3 />
+      <Section4 />
       </main>
 
       <footer></footer>
