@@ -6,7 +6,7 @@ const Section2 = () => {
 
     return (
         
-        <section className='flex justify-center h-60v'>
+        <section className='flex justify-center items-center h-60v'>
             <figure className=' w-d475w mx-6'>
                     <img src={SecPic2} alt='section pic 1' className=' h-d319h rounded-xl  bg-cover' />
                 </figure>
