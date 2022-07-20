@@ -2,7 +2,7 @@ import './App.css'
 import { useState } from 'react';
 import moment from 'moment';
 import { Button, TimePicker } from 'antd';
-import 'antd/dist/antd.css';
+import 'antd/dist/antd.min.css';
 
 
 function SelectTime () {
@@ -11,16 +11,6 @@ function SelectTime () {
         console.log(time, timeString);
       };
     return (
-            // <TimePicker
-            //     open={open}
-            //     onOpenChange={setOpen}
-            //     className=' h-11 relative !border-hidden !rounded-xl text-sm font-semibold flex flex-row justify-start items-center '
-            //     renderExtraFooter={() => (
-            //     <Button size="small" type="primary" onClick={() => setOpen(false)}>
-            //         OK
-            //     </Button>
-            //     )}
-            // />
 
             <TimePicker 
             className=' h-11 relative !border-hidden !rounded-xl text-sm font-semibold flex flex-row justify-start items-center '

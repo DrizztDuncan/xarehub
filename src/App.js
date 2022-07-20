@@ -10,7 +10,7 @@ import Section5 from './section5';
 import Tri_1 from './img/triangleBg.svg';
 import Tri_2 from './img/triangleBg_1.svg';
 import './App.css';
-import Slideshow from './slideshow';
+import SlideShow from './slideshow';
 
 
 function App() {
@@ -40,7 +40,7 @@ function App() {
           <Section3 />
           <Section4 />
           <Section5 />
-          <Slideshow />
+          <SlideShow />
       </main>
 
       <footer></footer>

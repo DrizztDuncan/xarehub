@@ -20,11 +20,9 @@ function SelectPeople () {
     { value: '10', label: '10', unavailable: false },
   ]
   const [selectedPeople, setSelectedPeople] = useState(people[0])
-  // const onchange = (e) => {
-  //   setSelectedOption(e.target.value);
-  // }
+
 return(
-  // <div/>
+  
   <Listbox value={selectedPeople} onChange={setSelectedPeople} >
       
       <Listbox.Button className="bg-white w-40 h-11 relative rounded-xl text-sm font-semibold flex flex-row justify-start items-center pl-3 ">
