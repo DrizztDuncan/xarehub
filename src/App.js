@@ -7,6 +7,7 @@ import Section2 from './section2';
 import Section3 from './section3';
 import Section4 from './section4';
 import Section5 from './section5';
+import Footer from './footer';
 import Tri_1 from './img/triangleBg.svg';
 import Tri_2 from './img/triangleBg_1.svg';
 import './App.css';
@@ -40,7 +41,7 @@ function App() {
           <Section3 />
           <Section4 />
           <Section5 />
-          <SlideShow />
+          {/* <SlideShow /> */}
       </main>
 
       <footer></footer>
