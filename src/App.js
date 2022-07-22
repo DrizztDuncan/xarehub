@@ -42,10 +42,11 @@ function App() {
           <Section4 />
           <Section5 />
           {/* <SlideShow /> */}
+          <Footer />
+
       </main>
 
-      <footer></footer>
-
+      
     </>
   
   );

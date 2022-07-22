@@ -10,8 +10,8 @@ import Sec4BG from './img/Background_2.svg';
 const Section4 = () => {
 
     return (
-        <section className='flex justify-center h-60v '>
-            <img src={Sec4BG} alt='section pic 1' className='w-full h-full absolute z-10 top-[820px]' />
+        <section className='flex justify-center h-60v bg-theme-bg-2 '>
+            {/* <img src={Sec4BG} alt='section pic 1' className='w-full absolute z-10 top-[820px]' /> */}
             <div className='flex justify-center items-center mx-3 z-20 '>
                 <div>
                     <div className='h-[192px]'   >

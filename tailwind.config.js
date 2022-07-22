@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'theme-bg': 'url("./Background_01.svg")',
+        'theme-bg-2': 'url("./img/Background_02.svg")',
       },
 
       height: {
