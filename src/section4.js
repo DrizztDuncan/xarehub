@@ -4,13 +4,13 @@ import Sec4Pic2 from './img/Group356.svg';
 import Sec4Pic3 from './img/Group357.svg';
 import Sec4Pic4 from './img/Group358.svg';
 import Sec4Arr from './img/Path248.svg';
-import Sec4BG from './img/Background_2.svg';
+// import Sec4BG from './img/Background_2.svg';
 
 
 const Section4 = () => {
 
     return (
-        <section className='flex justify-center h-60v bg-theme-bg-2 '>
+        <section className='flex justify-center h-60v '>
             {/* <img src={Sec4BG} alt='section pic 1' className='w-full absolute z-10 top-[820px]' /> */}
             <div className='flex justify-center items-center mx-3 z-20 '>
                 <div>

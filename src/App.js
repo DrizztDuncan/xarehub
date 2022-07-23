@@ -41,8 +41,8 @@ function App() {
           <Section3 />
           <Section4 />
           <Section5 />
-          {/* <SlideShow /> */}
-          <Footer />
+          <SlideShow />
+          {/* <Footer /> */}
 
       </main>
 
