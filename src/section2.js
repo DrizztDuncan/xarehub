@@ -8,7 +8,7 @@ const Section2 = () => {
         
         <section className='flex justify-center items-center h-60v'>
             <figure className=' w-d475w mx-6'>
-                    <img src={SecPic2} alt='section pic 1' className=' h-d319h rounded-xl  bg-cover' />
+                        <img src={SecPic2} alt='section pic 1' className=' h-d319h rounded-xl  object-cover	' />
                 </figure>
             <div className='flex justify-center mx-6'>
                 <div className='w-d475w h-d319h flex justify-center align-middle flex-col'>
