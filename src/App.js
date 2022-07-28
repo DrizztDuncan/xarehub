@@ -7,6 +7,7 @@ import Section2 from "./section2";
 import Section3 from "./section3";
 import Section4 from "./section4";
 import Section5 from "./section5";
+import TopBtn from "./topBtn";
 import Footer from "./footer";
 import Tri_1 from "./img/triangleBg.svg";
 import Tri_2 from "./img/triangleBg_1.svg";
@@ -16,6 +17,8 @@ import SlideShow from "./slideshow";
 function App() {
   return (
     <>
+      <TopBtn />
+
       <img src={head} className=" absolute -z-50 w-full " alt="head-img" />
 
       <header className=" relative flex justify-center align-center">
@@ -57,7 +60,6 @@ function App() {
         <SlideShow />
         <Footer />
       </main>
-
     </>
   );
 }

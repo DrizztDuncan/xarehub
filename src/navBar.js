@@ -29,19 +29,19 @@ const Navbar = () => {
     >
       <img src={logo} className="w-45" alt="logo" />
       <ul className=" flex justify-between items-center  w-1/3">
-        <li className="cursor-pointer text-white text-sm font-normal text-center w-full hover:text-blue-4">
+        <li className="cursor-pointer text-white text-base font-normal text-center w-full hover:text-blue-4">
           聚落據點
         </li>
-        <li className="cursor-pointer text-white text-sm font-normal text-center w-full hover:text-blue-4">
+        <li className="cursor-pointer text-white text-base font-normal text-center w-full hover:text-blue-4">
           會籍方案
         </li>
-        <li className="cursor-pointer text-white text-sm font-normal text-center w-full hover:text-blue-4">
+        <li className="cursor-pointer text-white text-base font-normal text-center w-full hover:text-blue-4">
           預約參觀
         </li>
-        <li className="cursor-pointer text-white text-sm font-normal text-center w-full hover:text-blue-4">
+        <li className="cursor-pointer text-white text-base font-normal text-center w-full hover:text-blue-4">
           免費體驗
         </li>
-        <li className="cursor-pointer text-emerald-400 text-sm font-normal text-center w-full hover:text-blue-4">
+        <li className="cursor-pointer text-emerald-400 text-base font-normal text-center w-full hover:text-blue-4">
           下載APP
         </li>
       </ul>
