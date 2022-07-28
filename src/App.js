@@ -34,7 +34,7 @@ function App() {
           </h1>
           <HeaderInput className=" h-11 w-60vw flex justify-evenly	 " />
 
-          <button className=" bg-blue-1 text-white font-bold  px-4 rounded-lg mt-2 w-1/4 h-10 ">
+          <button className=" bg-blue-1 text-white font-bold  px-4 rounded-lg mt-4 w-1/4 h-10 ">
             搜尋
           </button>
         </section>
