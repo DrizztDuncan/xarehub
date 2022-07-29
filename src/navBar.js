@@ -2,10 +2,9 @@ import React, { useState, Fragment, useEffect } from "react";
 import "./App.css";
 import logo from "./Logo.svg";
 
-// 參考 https://codesandbox.io/s/react-scroll-navbar-z76ig react-scroll-navbar
+// 參考 https://codesandbox.io/s/react-scroll-navbar-z76ig
 
 const Navbar = () => {
-  const [navSize, setnavSize] = useState("10rem");
   const [navColor, setnavColor] = useState("transparent");
   const listenScrollEvent = () => {
     window.scrollY > 10 ? setnavColor("#001144") : setnavColor("transparent");
@@ -20,7 +19,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className="justify-around p-5 z-50"
+      className="justify-around p-5 z-30"
       style={{
         backgroundColor: navColor,
         // height: navSize,
