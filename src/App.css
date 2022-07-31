@@ -70,6 +70,6 @@ Navbar {
 .swiper-slide img {
   display: block;
   width: 20vw;
-  object-fit: cover;
+  object-fit: c;
   border-radius: 30px;
 }
