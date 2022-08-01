@@ -19,7 +19,7 @@ const Section3 = () => {
                     </div>
                 </div>
                 <figure className=' w-d475w mx-6'>
-                    <img src={SecPic3} alt='section pic 1' className=' h-d319h rounded-xl object-cover ' />
+                    <img src={SecPic3} alt='section pic 1' className=' h-[169px] md:h-d319h rounded-xl object-cover ' />
                 </figure>
             </div>
         </section>

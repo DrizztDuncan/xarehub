@@ -23,9 +23,9 @@ function SelectPeople () {
 
 return(
   
-  <Listbox value={selectedPeople} onChange={setSelectedPeople} >
+  <Listbox value={selectedPeople} onChange={setSelectedPeople}>
       
-      <Listbox.Button className="bg-white w-40 h-11 relative rounded-xl text-sm font-semibold flex flex-row justify-start items-center pl-3 ">
+      <Listbox.Button className="bg-white w-auto h-11 relative rounded-xl text-sm font-semibold flex flex-row justify-start items-center pl-3  m-3 md:w-1/4 ">
          <MdPeopleAlt className=' text-blue-500 block' />
           {selectedPeople.value}
       </Listbox.Button>

@@ -9,7 +9,7 @@ const Section1 = () => {
         <section className='flex justify-center items-center h-60v'>
             
             <div className='flex justify-center mx-6'>
-                <div className='w-d475w h-d319h flex justify-center align-middle flex-col'>
+                <div className='w-[302px] flex justify-center align-middle flex-col md:w-d475w md:d319h'>
                     <div className=' text-5xl font-bold text-blue-1'>共享中的獨享</div>
                     <div className=' text-base mt-3 font-semibold'>
                         首創訂閱制空間會籍：App 上隨時預約座位，享受工作、<br />
@@ -19,7 +19,7 @@ const Section1 = () => {
                     </div>
                 </div>
                 <figure className=' w-d475w mx-6'>
-                    <img src={SecPic1} alt='section pic 1' className=' h-d319h rounded-xl  object-cover	' />
+                    <img src={SecPic1} alt='section pic 1' className=' h-[169px] rounded-xl  object-cover	md:h-d319h' />
                 </figure>
             </div>
         </section>

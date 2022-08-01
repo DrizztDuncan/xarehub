@@ -13,7 +13,7 @@ function SelectDate () {
   const [startDate, setStartDate] = useState(new Date());
 
     return (
-      <div className='bg-white w-auto h-11 relative rounded-xl text-sm font-semibold flex flex-row justify-start items-center pl-3 '>
+      <div className='bg-white w-auto h-11 relative rounded-xl text-sm font-semibold flex flex-row justify-start items-center pl-3  m-3 md:w-1/4 '>
           <BsFillCalendarCheckFill className=' text-blue-500 block' />
           <DatePicker selected={startDate} onChange={(date) => setStartDate(date)} />
       </div>

@@ -73,3 +73,9 @@ Navbar {
   object-fit: c;
   border-radius: 30px;
 }
+
+/* change ant-time-picker value */
+
+.ant-picker div{
+  margin: 3;
+}
