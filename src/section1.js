@@ -8,7 +8,7 @@ const Section1 = () => {
         
         <section className='flex justify-center items-center h-60v'>
             
-            <div className='flex justify-center mx-6'>
+            <div className='flex-col justify-center mx-6 md:flex-row'>
                 <div className='w-[302px] flex justify-center align-middle flex-col md:w-d475w md:d319h'>
                     <div className=' text-5xl font-bold text-blue-1'>共享中的獨享</div>
                     <div className=' text-base mt-3 font-semibold'>
