@@ -3,6 +3,7 @@ import "./App.css";
 import { Listbox } from "@headlessui/react";
 import logo from "./Logo.svg";
 import { GiHamburgerMenu } from "react-icons/gi";
+import BurgerDD from "./burgerDD";
 
 // 參考 https://codesandbox.io/s/react-scroll-navbar-z76ig
 
@@ -61,26 +62,7 @@ const Navbar = () => {
       </ul>
 
       {/* burger menu */}
-      <div>
-        <GiHamburgerMenu className=" text-blue-500 block" />
-        <Listbox value={selectedMenu} onChange={setSelectedMenu}>
-          <Listbox.Button className=" w-auto h-11 relative rounded-xl text-sm font-semibold flex flex-row justify-start items-center pl-3  m-3 md:w-1/4 md:hidden ">
-            {selectedMenu.value}
-          </Listbox.Button>
-
-          <Listbox.Options className="w-40 bg-white absolute left-3/4 text-start text-sm font-semibold mt-12 ml-12 cursor-pointer pl-2 ">
-            {menu.map((person) => (
-              <Listbox.Option
-                key={person.value}
-                value={person}
-                disabled={person.unavailable}
-              >
-                {person.label}
-              </Listbox.Option>
-            ))}
-          </Listbox.Options>
-        </Listbox>
-      </div>
+      <BurgerDD />
     </nav>
   );
 };
