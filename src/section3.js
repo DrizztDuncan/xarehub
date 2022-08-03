@@ -6,9 +6,9 @@ const Section3 = () => {
 
     return (
         
-        <section className='flex justify-center items-center h-60v'>
+        <section className='flex justify-center items-center h-60v '>
             
-            <div className='flex justify-center mx-6'>
+            <div className=' flex flex-col justify-center mx-6 md:flex-row'>
                 <div className='w-d475w h-d319h flex justify-center items-center flex-col'>
                     <div className=' text-5xl font-bold text-blue-1'>彈性方案由你組合</div>
                     <div className=' text-base mt-3 font-semibold '>
@@ -19,7 +19,7 @@ const Section3 = () => {
                     </div>
                 </div>
                 <figure className=' w-d475w mx-6'>
-                    <img src={SecPic3} alt='section pic 1' className=' h-[169px] md:h-d319h rounded-xl object-cover ' />
+                    <img src={SecPic3} alt='section pic 1' className=' h-[169px] md:h-d319h md:w-d475w rounded-xl object-cover ' />
                 </figure>
             </div>
         </section>

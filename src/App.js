@@ -43,14 +43,14 @@ function App() {
         </section>
         <img
           src={Tri_1}
-          className=" w-60 absolute left-0 top-1/3"
+          className=" w-20 absolute left-0 top-1/3 md:w-60 "
           alt="bg triangle"
         />
         {/* background triangle */}
         <Section1 />
         <img
           src={Tri_2}
-          className=" w-60 absolute right-0 top-1/2"
+          className="  w-20 absolute right-0 top-1/2  md:w-60"
           alt="bg triangle"
         />
         <Section2 />

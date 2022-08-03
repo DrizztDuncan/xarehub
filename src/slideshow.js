@@ -24,7 +24,7 @@ export default function SlideShow() {
   
   
   return (
-    <div className=" flex items-center ">
+    <div className=" flex items-center  ">
     <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
       <SwiperSlide><img src={Caroul_1} /></SwiperSlide>
       <SwiperSlide><img src={Caroul_2} /></SwiperSlide>

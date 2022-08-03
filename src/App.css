@@ -76,6 +76,6 @@ Navbar {
 
 /* change ant-time-picker value */
 
-.ant-picker div{
-  margin: 3;
+.Harrison.ant-picker {
+  margin: .75rem ;
 }

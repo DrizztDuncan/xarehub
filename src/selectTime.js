@@ -13,7 +13,7 @@ function SelectTime () {
     return (
 
             <TimePicker 
-            className=' h-11 relative !border-hidden !rounded-xl text-sm font-semibold flex flex-row justify-start items-center  m-3 md:w-1/4 md:m-0 '
+            className=' h-11 relative !border-hidden !rounded-xl text-sm font-semibold flex flex-row justify-start items-center Harrison md:w-1/4 md:m-0 '
             onChange={onChange} defaultValue={moment('00:00:00', 'HH:mm:ss')} 
 
             />
