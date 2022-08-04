@@ -6,6 +6,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import BurgerDD from "./burgerDD";
 
 // 參考 https://codesandbox.io/s/react-scroll-navbar-z76ig
+// https://codesandbox.io/s/tailwind-react-hamburger-menu-tjhfyx?file=/src/components/Header/Header.js
 
 const Navbar = () => {
   const [navColor, setnavColor] = useState("transparent");
@@ -33,9 +34,15 @@ const Navbar = () => {
   ];
   const [selectedMenu, setSelectedMenu] = useState(menu[0]);
 
+  // control burger menu
+  const [isShown, setIsShown] = useState(false);
+  const handleClick = (event) => {
+    setIsShown(true);
+  };
+
   return (
     <nav
-      className="flex flex-col justify-around items-center p-5 z-30 relative"
+      className="flex flex-col justify-around items-center p-5 z-30 fixed"
       style={{
         backgroundColor: navColor,
         // height: navSize,
@@ -63,16 +70,25 @@ const Navbar = () => {
         </ul>
 
         {/* burger menu */}
-        <BurgerDD />
+        <GiHamburgerMenu
+          onClick={handleClick}
+          className=" block lg:hidden text-blue-500 block lg:hidden text-3xl "
+        />
       </div>
-
-      <ul className=" block lg:hidden ">
-        <li className=" text-4xl m-5">聚落據點</li>
-        <li className=" text-4xl m-5">會籍方案</li>
-        <li className=" text-4xl m-5">預約參觀</li>
-        <li className=" text-4xl m-5">免費體驗</li>
-        <li className=" text-4xl m-5">下載APP</li>
-      </ul>
+      {/* 👇️ show elements on click */}
+      {isShown && (
+        <div>
+          <h2>
+            <ul className=" block lg:hidden ">
+              <li className=" text-4xl m-5">聚落據點</li>
+              <li className=" text-4xl m-5">會籍方案</li>
+              <li className=" text-4xl m-5">預約參觀</li>
+              <li className=" text-4xl m-5">免費體驗</li>
+              <li className=" text-4xl m-5">下載APP</li>
+            </ul>
+          </h2>
+        </div>
+      )}
     </nav>
   );
 };
