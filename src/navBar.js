@@ -35,34 +35,44 @@ const Navbar = () => {
 
   return (
     <nav
-      className="justify-around p-5 z-30"
+      className="flex flex-col justify-around items-center p-5 z-30 relative"
       style={{
         backgroundColor: navColor,
         // height: navSize,
         transition: "all 1s",
       }}
     >
-      <img src={logo} className="w-45" alt="logo" />
-      <ul className=" hidden justify-between items-center  w-1/3 md:flex ">
-        <li className="cursor-pointer text-white text-base font-normal text-center w-full hover:text-blue-4">
-          聚落據點
-        </li>
-        <li className="cursor-pointer text-white text-base font-normal text-center w-full hover:text-blue-4">
-          會籍方案
-        </li>
-        <li className="cursor-pointer text-white text-base font-normal text-center w-full hover:text-blue-4">
-          預約參觀
-        </li>
-        <li className="cursor-pointer text-white text-base font-normal text-center w-full hover:text-blue-4">
-          免費體驗
-        </li>
-        <li className="cursor-pointer text-emerald-400 text-base font-normal text-center w-full hover:text-blue-4">
-          下載APP
-        </li>
-      </ul>
+      <div className=" flex justify-between w-80w">
+        <img src={logo} className="w-45" alt="logo" />
+        <ul className=" hidden justify-between items-center  w-1/3 lg:flex ">
+          <li className="cursor-pointer text-white text-base font-normal text-center w-full hover:text-blue-4">
+            聚落據點
+          </li>
+          <li className="cursor-pointer text-white text-base font-normal text-center w-full hover:text-blue-4">
+            會籍方案
+          </li>
+          <li className="cursor-pointer text-white text-base font-normal text-center w-full hover:text-blue-4">
+            預約參觀
+          </li>
+          <li className="cursor-pointer text-white text-base font-normal text-center w-full hover:text-blue-4">
+            免費體驗
+          </li>
+          <li className="cursor-pointer text-emerald-400 text-base font-normal text-center w-full hover:text-blue-4">
+            下載APP
+          </li>
+        </ul>
 
-      {/* burger menu */}
-      <BurgerDD />
+        {/* burger menu */}
+        <BurgerDD />
+      </div>
+
+      <ul className=" block lg:hidden ">
+        <li className=" text-4xl m-5">聚落據點</li>
+        <li className=" text-4xl m-5">會籍方案</li>
+        <li className=" text-4xl m-5">預約參觀</li>
+        <li className=" text-4xl m-5">免費體驗</li>
+        <li className=" text-4xl m-5">下載APP</li>
+      </ul>
     </nav>
   );
 };
