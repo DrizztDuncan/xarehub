@@ -20,25 +20,13 @@ const Navbar = () => {
       window.removeEventListener("scroll", listenScrollEvent);
     };
   }, []);
-  const menu = [
-    { value: "1", label: "1", unavailable: false },
-    { value: "2", label: "2", unavailable: false },
-    { value: "3", label: "3", unavailable: false },
-    { value: "4", label: "4", unavailable: false },
-    { value: "5", label: "5", unavailable: false },
-    { value: "6", label: "6", unavailable: false },
-    { value: "7", label: "7", unavailable: false },
-    { value: "8", label: "8", unavailable: false },
-    { value: "9", label: "9", unavailable: false },
-    { value: "10", label: "10", unavailable: false },
-  ];
-  const [selectedMenu, setSelectedMenu] = useState(menu[0]);
 
   // control burger menu
   const [isShown, setIsShown] = useState(false);
-  const handleClick = (event) => {
-    setIsShown(true);
-  };
+  // const handleClick = (event) => {
+  //   setIsShown(true);
+  // };
+  const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
     <nav
@@ -68,27 +56,55 @@ const Navbar = () => {
             下載APP
           </li>
         </ul>
+        {/* https://codesandbox.io/s/tailwind-react-hamburger-menu-tjhfyx?file=/src/components/Header/Header.js:343-1993 */}
+        <section className="MOBILE-MENU flex lg:hidden">
+          <div
+            className="HAMBURGER-ICON space-y-2"
+            onClick={() => setIsNavOpen((prev) => !prev)}
+          >
+            <span className="block h-1 w-8 animate-pulse bg-white"></span>
+            <span className="block h-1 w-8 animate-pulse bg-white"></span>
+            <span className="block h-1 w-8 animate-pulse bg-white"></span>
+          </div>
 
-        {/* burger menu */}
-        <GiHamburgerMenu
-          onClick={handleClick}
-          className=" block lg:hidden text-blue-500 block lg:hidden text-3xl "
-        />
-      </div>
-      {/* 👇️ show elements on click */}
-      {isShown && (
-        <div>
-          <h2>
-            <ul className=" block lg:hidden ">
-              <li className=" text-4xl m-5">聚落據點</li>
-              <li className=" text-4xl m-5">會籍方案</li>
-              <li className=" text-4xl m-5">預約參觀</li>
-              <li className=" text-4xl m-5">免費體驗</li>
-              <li className=" text-4xl m-5">下載APP</li>
+          <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
+            <div
+              className="absolute -top-[24px] right-[58px] px-8 py-8"
+              onClick={() => setIsNavOpen(false)}
+            >
+              <svg
+                className="h-12 w-12 text-white"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </div>
+            <ul className="flex flex-col items-center justify-between min-h-[250px]">
+              <li className="border-b border-gray-400 my-8 uppercase">
+                <a href="/about">聚落據點</a>
+              </li>
+              <li className="border-b border-gray-400 my-8 uppercase">
+                <a href="/portfolio">會籍方案</a>
+              </li>
+              <li className="border-b border-gray-400 my-8 uppercase">
+                <a href="/contact">預約參觀</a>
+              </li>
+              <li className="border-b border-gray-400 my-8 uppercase">
+                <a href="/contact">免費體驗</a>
+              </li>
+              <li className="border-b border-gray-400 my-8 uppercase">
+                <a href="/contact">下載APP</a>
+              </li>
             </ul>
-          </h2>
-        </div>
-      )}
+          </div>
+        </section>
+      </div>
     </nav>
   );
 };
