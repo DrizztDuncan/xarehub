@@ -5,8 +5,8 @@ const Section1 = () => {
   return (
     <section className="flex justify-center items-center h-60v ">
       <div className=" flex flex-col justify-center mx-6 lg:flex-row">
-        <div className="w-[302px] flex justify-center align-middle flex-col lg:w-d475w lg:d319h">
-          <div className=" text-2xl font-bold text-blue-1 lg:text-5xl">
+        <div className="w-[302px] flex justify-center align-middle flex-col lg:w-d475w lg:d319h m-auto ">
+          <div className=" text-2xl font-bold text-blue-1 lg:text-5xl text-center lg:text-left">
             共享中的獨享
           </div>
           <div className=" text-sm mt-3 font-semibold lg:text-base">
@@ -19,11 +19,11 @@ const Section1 = () => {
             注自我實現。
           </div>
         </div>
-        <figure className=" w-d475w mx-6">
+        <figure className=" w-d475w mx-6 ">
           <img
             src={SecPic1}
             alt="section pic 1"
-            className=" h-[169px] rounded-xl  object-cover	lg:h-d319h"
+            className=" h-[169px] rounded-xl  object-cover	lg:h-d319h  m-auto "
           />
         </figure>
       </div>

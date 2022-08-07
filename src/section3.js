@@ -6,10 +6,10 @@ const Section3 = () => {
     <section className="flex justify-center items-center h-60v ">
       <div className=" flex flex-col justify-center mx-6 lg:flex-row">
         <div className="w-d475w h-d319h flex justify-center items-center flex-col">
-          <div className=" text-5xl font-bold text-blue-1">
+          <div className=" text-2xl font-bold text-blue-1 lg:text-5xl ">
             彈性方案由你組合
           </div>
-          <div className=" text-base mt-3 font-semibold ">
+          <div className=" text-sm mt-3 font-semibold lg:text-base ">
             就是享受不綁約的自由！
             <br />
             xarehub享聚落 核心理念是提供最適合你與團隊的彈性空
