@@ -25,17 +25,17 @@ function App() {
         <Navbar />
       </header>
 
-      <main className="absolute top-20 w-100w block  ">
+      <main className=" top-0 lg:top-20 w-100w block  ">
         <img
           src={frame}
           className="absolute top-0 left-0 w-full  -z-40"
           alt="frame"
         />
-        <section className=" h-80v w-60w flex justify-start items-center flex-col m-auto pt-32 ">
+        <section className=" h-full lg:h-80v w-60w flex justify-start items-center flex-col mx-auto pt-32 ">
           <h1 className=" h-24 text-center text-white font-medium text-4.5xl ">
             找到你的理想空間
           </h1>
-          <HeaderInput className=" h-11 w-60vw flex justify-evenly	 " />
+          <HeaderInput className=" h-11 flex justify-evenly	 " />
 
           <button className=" bg-blue-1 text-white font-bold  px-4 rounded-lg mt-4 w-1/4 h-10 ">
             搜尋

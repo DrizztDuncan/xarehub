@@ -3,7 +3,7 @@ import SecPic2 from "./img/feature-2.jpg";
 
 const Section2 = () => {
   return (
-    <section className="flex flex-col justify-center items-center h-60v lg:flex-row ">
+    <section className="flex flex-col justify-center items-center h-80v lg:h-60v lg:flex-row ">
       <figure className=" w-d475w mx-6 ">
         <img
           src={SecPic2}

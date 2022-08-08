@@ -3,7 +3,7 @@ import SecPic3 from "./img/feature-3.jpg";
 
 const Section3 = () => {
   return (
-    <section className="flex justify-center items-center h-60v ">
+    <section className="flex justify-center items-center h-80v lg:h-60v ">
       <div className=" flex flex-col justify-center mx-6 lg:flex-row">
         <div className="w-d475w h-d319h flex justify-center items-center flex-col">
           <div className=" text-2xl font-bold text-blue-1 lg:text-5xl ">
