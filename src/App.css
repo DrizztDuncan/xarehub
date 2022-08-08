@@ -99,3 +99,12 @@ Navbar {
   justify-content: space-evenly;
   align-items: center;
 }
+
+/* .swiper-slide img {
+  width: 100%;
+} */
+@media (max-width: 1024px) {
+  .swiper-slide img {
+    width: 40vw;
+  }
+}

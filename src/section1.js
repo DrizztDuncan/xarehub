@@ -5,7 +5,7 @@ const Section1 = () => {
   return (
     <section className="flex justify-center items-center h-80v lg:h-60v ">
       <div className=" flex flex-col justify-center mx-6 lg:flex-row">
-        <div className="w-[302px] flex justify-center align-middle flex-col lg:w-d475w lg:d319h m-auto ">
+        <div className="w-[302px] flex justify-center align-middle flex-col lg:w-d475w lg:d319h mx-auto ">
           <div className=" text-2xl font-bold text-blue-1 lg:text-5xl text-center lg:text-left">
             共享中的獨享
           </div>

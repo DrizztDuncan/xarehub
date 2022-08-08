@@ -8,12 +8,12 @@ const Section2 = () => {
         <img
           src={SecPic2}
           alt="section pic 1"
-          className=" w-[302px] rounded-xl  object-cover lg:w-d475w lg:d319h m-auto "
+          className=" w-[302px] rounded-xl  object-cover lg:w-d475w lg:d319h mx-auto "
         />
       </figure>
       <div className="flex justify-center mx-6">
-        <div className="w-d475w h-d319h flex justify-center align-middle flex-col">
-          <div className=" text-2xl font-bold text-blue-1 lg:text-5xl m-auto ">
+        <div className="w-[302px] lg:w-d475w lg:d319h flex justify-center items-start lg:items-center align-middle flex-col">
+          <div className=" text-2xl font-bold text-blue-1 lg:text-5xl mx-auto text-center ">
             共創空間的無限可能
           </div>
           <div className=" text-sm mt-3 font-semibold lg:text-base">

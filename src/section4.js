@@ -64,7 +64,6 @@ const Section4 = () => {
           <div className="text-blue-1 font-semibold text-lg">
             掃描 QR Code 進出
           </div>
-          <GoArrowDown className=" text-blue-1 text-5xl block lg:hidden " />
         </div>
         <div className="flex justify-center items-center"></div>
       </div>
