@@ -18,7 +18,7 @@ import Caroul_5 from "./img/carousel-5.jpeg";
 
 export default function SlideShow() {
   return (
-    <div className=" flex items-center ">
+    <div className=" flex items-center my-24">
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide>
           <img src={Caroul_1} />

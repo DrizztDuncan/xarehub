@@ -6,7 +6,7 @@ import React, { useState } from "react";
 const BurgerDD = () => {
   return (
     <button className=" block lg:hidden ">
-      <GiHamburgerMenu className=" text-blue-500 block lg:hidden text-3xl " />
+      <GiHamburgerMenu className=" text-blue-500 block lg:hidden text-3xl" />
     </button>
   );
 };

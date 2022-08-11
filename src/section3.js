@@ -19,7 +19,7 @@ const Section3 = () => {
             效益翻倍。
           </div>
         </div>
-        <figure className=" w-d475w mx-6">
+        <figure className="  mx-6">
           <img
             src={SecPic3}
             alt="section pic 1"

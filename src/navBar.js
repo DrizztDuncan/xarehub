@@ -37,9 +37,9 @@ const Navbar = () => {
         transition: "all 1s",
       }}
     >
-      <div className=" flex justify-between w-80w">
+      <div className="flex items-center justify-between w-80w">
         <img src={logo} className="w-45" alt="logo" />
-        <ul className=" hidden justify-between items-center  w-1/3 lg:flex ">
+        <ul className=" hidden justify-between items-center w-1/2 lg:flex ">
           <li className="cursor-pointer text-white text-base font-normal text-center w-full hover:text-blue-4">
             聚落據點
           </li>

@@ -20,7 +20,6 @@ function App() {
       <TopBtn />
 
       <img src={head} className=" absolute -z-50 w-full " alt="head-img" />
-
       <header className=" relative flex justify-center align-center">
         <Navbar />
       </header>
@@ -43,14 +42,14 @@ function App() {
         </section>
         <img
           src={Tri_1}
-          className=" w-20 absolute left-0 top-1/3 lg:w-60 "
+          className=" w-20 absolute left-0 top-1/3 lg:w-60 -z-10 "
           alt="bg triangle"
         />
         {/* background triangle */}
         <Section1 />
         <img
           src={Tri_2}
-          className="  w-20 absolute right-0 top-1/2  lg:w-60"
+          className="  w-20 absolute right-0 top-1/2  lg:w-60 -z-10 "
           alt="bg triangle"
         />
         <Section2 />
