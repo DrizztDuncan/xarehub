@@ -38,7 +38,7 @@ const Navbar = () => {
       }}
     >
       <div className="flex items-center justify-between w-80w">
-        <img src={logo} className="w-45" alt="logo" />
+        <img src={logo} alt="logo" />
         <ul className=" hidden justify-between items-center w-1/2 lg:flex ">
           <li className="cursor-pointer text-white text-base font-normal text-center w-full hover:text-blue-4">
             聚落據點
