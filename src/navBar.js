@@ -14,6 +14,9 @@ const Navbar = () => {
     window.scrollY > 10 ? setnavColor("#001144") : setnavColor("transparent");
     // window.scrollY > 10 ? setnavSize("5rem") : setnavSize("10rem");
   };
+
+  const [isNavOpen, setIsNavOpen] = useState(false);
+
   useEffect(() => {
     window.addEventListener("scroll", listenScrollEvent);
     return () => {
@@ -26,11 +29,10 @@ const Navbar = () => {
   // const handleClick = (event) => {
   //   setIsShown(true);
   // };
-  const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
     <nav
-      className="flex flex-col justify-around items-center p-5 z-30 fixed"
+      className="flex flex-col justify-around items-center p-5 z-30 fixed "
       style={{
         backgroundColor: navColor,
         // height: navSize,
@@ -57,7 +59,7 @@ const Navbar = () => {
           </li>
         </ul>
         {/* https://codesandbox.io/s/tailwind-react-hamburger-menu-tjhfyx?file=/src/components/Header/Header.js:343-1993 */}
-        <section className="MOBILE-MENU flex lg:hidden">
+        <section className="MOBILE-MENU flex lg:hidden ">
           <div
             className="HAMBURGER-ICON space-y-2"
             onClick={() => setIsNavOpen((prev) => !prev)}
@@ -69,9 +71,10 @@ const Navbar = () => {
 
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
             <div
-              className="absolute -top-[24px] right-[58px] px-8 py-8"
+              className="w-90w h-[50px] flex justify-evenly items-start"
               onClick={() => setIsNavOpen(false)}
             >
+              <img src={logo} className="w-45" alt="logo" />
               <svg
                 className="h-12 w-12 text-white"
                 viewBox="0 0 24 24"
@@ -85,21 +88,21 @@ const Navbar = () => {
                 <line x1="6" y1="6" x2="18" y2="18" />
               </svg>
             </div>
-            <ul className="flex flex-col items-center justify-between min-h-[250px]">
-              <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/about">聚落據點</a>
+            <ul className="flex flex-col items-center justify-between min-h-[200px]">
+              <li className=" w-80w mx-auto my-3 uppercase text-3xl font-black	active:ring ring-white active:bg-blue-800 rounded-lg text-center">
+                <a className="text-white active:text-blue-300">聚落據點</a>
               </li>
-              <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/portfolio">會籍方案</a>
+              <li className=" w-80w mx-auto my-3 uppercase text-3xl font-black	active:ring ring-white active:bg-blue-800 rounded-lg text-center">
+                <a className="text-white active:text-blue-300">會籍方案</a>
               </li>
-              <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/contact">預約參觀</a>
+              <li className=" w-80w mx-auto my-3 uppercase text-3xl font-black	active:ring ring-white active:bg-blue-800 rounded-lg text-center">
+                <a className="text-white active:text-blue-300">預約參觀</a>
               </li>
-              <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/contact">免費體驗</a>
+              <li className=" w-80w mx-auto my-3 uppercase text-3xl font-black	active:ring ring-white active:bg-blue-800 rounded-lg text-center">
+                <a className="text-white active:text-blue-300">免費體驗</a>
               </li>
-              <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/contact">下載APP</a>
+              <li className="  w-80w mx-auto my-3 uppercase text-3xl font-black	active:ring ring-white active:bg-blue-800 rounded-lg text-center">
+                <a className="text-white active:text-blue-300">下載APP</a>
               </li>
             </ul>
           </div>

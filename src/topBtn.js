@@ -36,7 +36,7 @@ const TopBtn = () => {
 
   return (
     <div
-      className="fixed top-1/2 right-3 w-10 z-50 "
+      className="fixed top-2/3 right-3 w-10 z-50 "
       onClick={goToTop}
       style={{
         display: btnDisplay,

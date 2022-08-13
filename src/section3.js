@@ -9,7 +9,7 @@ const Section3 = () => {
           <div className=" text-2xl font-bold text-blue-1 lg:text-5xl ">
             彈性方案由你組合
           </div>
-          <div className=" text-sm mt-3 font-semibold lg:text-base ">
+          <div className=" text-sm mt-3 font-semibold lg:text-base  text-center lg:text-left">
             就是享受不綁約的自由！ xarehub享聚落
             核心理念是提供最適合你與團隊的彈性空
             間選擇，自主管理時間、自助組合空間，讓你的時間使用 效益翻倍。

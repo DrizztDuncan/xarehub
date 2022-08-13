@@ -14,7 +14,7 @@ const Section2 = () => {
           <div className=" text-2xl font-bold text-blue-1 lg:text-5xl mx-auto text-center ">
             共創空間的無限可能
           </div>
-          <p className=" text-sm mt-3 font-semibold lg:text-base">
+          <p className=" text-sm mt-3 font-semibold lg:text-base lg:text-right text-center ">
             空間就是舞台，每個發生都是漣漪起點。
             線上直播、線下交流，對外發表、內部培訓，團隊溝通、一人作業，xarehub享聚落
             一站式空間服務，你最聰明彈性的選擇！

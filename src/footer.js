@@ -15,26 +15,26 @@ const Footer = () => {
             className="  w-80w lg:w-30w flex flex-col lg:flex-row justify-center lg:justify-around lg:items-start 
           items-center font-normal	text-3xl	lg:text-lg  "
           >
-            <div className="cursor-pointer hover:text-blue-4 my-2 lg:my-0">
+            <div className="cursor-pointer hover:text-blue-4 my-2 lg:my-0  active:text-white active:font-black">
               我有空間
             </div>
             <div className="hidden lg:block">|</div>
-            <div className="cursor-pointer hover:text-blue-4 my-2 lg:my-0">
+            <div className="cursor-pointer hover:text-blue-4 my-2 lg:my-0 active:text-white active:font-black">
               常見問題
             </div>
             <div className="hidden lg:block">|</div>
-            <div className="cursor-pointer hover:text-blue-4 my-2 lg:my-0">
+            <div className="cursor-pointer hover:text-blue-4 my-2 lg:my-0 active:text-white active:font-black">
               使用者條款
             </div>
             <div className="hidden lg:block">|</div>
-            <div className="cursor-pointer hover:text-blue-4 my-2 lg:my-0">
+            <div className="cursor-pointer hover:text-blue-4 my-2 lg:my-0 active:text-white active:font-black">
               隱私條款政策
             </div>
           </div>
           <div
             className=" 
-          w-80w lg:w-30w text-base font-medium mx-auto mt-8 m-0 text-white	cursor-auto	
-          text-center lg:text-left leading-8	 
+          w-80w lg:w-30w text-base font-medium mx-auto mt-12 m-0 text-white	cursor-auto	
+          text-center lg:text-left leading-8 pl-0 lg:pl-4
           "
           >
             xarehub享聚落
@@ -47,7 +47,7 @@ const Footer = () => {
         {/* Right Block */}
 
         <div className=" flex flex-col items-center lg:items-stretch w-80w lg:w-30w text-blue-3 text-lg ">
-          <div className="cursor-default my-6 lg:my-0">下載APP</div>
+          <div className="cursor-default my-6 lg:my-2">下載APP</div>
           <div className=" w-80w lg:w-20w flex justify-evenly lg:justify-center ">
             <div className=" flex text-white w-50w lg:w-10w justify-center items-center ">
               <AiFillApple className=" text-3xl cursor-pointer" />
@@ -58,7 +58,7 @@ const Footer = () => {
               <div className=" text-sm cursor-pointer mx-2">Google Play</div>
             </div>
           </div>
-          <div className="cursor-default my-6 lg:my-0">聯絡我們</div>
+          <div className="cursor-default my-6 lg:my-2">聯絡我們</div>
           <div className=" flex text-white ">
             <BsInstagram className=" text-5xl m-5  cursor-pointer" />
             <FaLine className=" text-5xl m-5  cursor-pointer" />
