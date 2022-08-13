@@ -17,28 +17,30 @@ function SelectLocation() {
   // https://headlessui.dev/react/listbox for dropdown
 
   return (
-    <Listbox value={selectedLocation} onChange={setSelectedLocation}>
-      <Listbox.Button
-        className="bg-white w-auto h-11 relative rounded-xl text-sm font-semibold flex flex-row justify-start items-center pl-3 m-3 
-        :w-1/4 
+    <div>
+      <Listbox value={selectedLocation} onChange={setSelectedLocation}>
+        <Listbox.Button
+          className="bg-white w-80w h-11 rounded-xl text-sm font-semibold flex flex-row justify-start 
+        items-center pl-3 lg:w-20w m-3
       "
-      >
-        <FaMapMarkerAlt className=" text-blue-500 block" />
-        {selectedLocation.name}
-      </Listbox.Button>
+        >
+          <FaMapMarkerAlt className=" text-blue-500 block  mr-2" />
+          {selectedLocation.name}
+        </Listbox.Button>
 
-      <Listbox.Options className=" w-1/4 bg-white absolute left-40 text-start text-sm font-semibold mt-12 ml-6 cursor-pointer pl-2 ">
-        {branch.map((person) => (
-          <Listbox.Option
-            key={person.id}
-            value={person}
-            disabled={person.unavailable}
-          >
-            {person.name}
-          </Listbox.Option>
-        ))}
-      </Listbox.Options>
-    </Listbox>
+        <Listbox.Options className=" w-80w bg-white absolute text-start text-sm font-semibold  cursor-pointer mx-3 pl-2 lg:w-20w z-10">
+          {branch.map((person) => (
+            <Listbox.Option
+              key={person.id}
+              value={person}
+              disabled={person.unavailable}
+            >
+              {person.name}
+            </Listbox.Option>
+          ))}
+        </Listbox.Options>
+      </Listbox>
+    </div>
   );
 }
 export default SelectLocation;

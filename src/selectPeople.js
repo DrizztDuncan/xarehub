@@ -20,24 +20,29 @@ function SelectPeople() {
   const [selectedPeople, setSelectedPeople] = useState(people[0]);
 
   return (
-    <Listbox value={selectedPeople} onChange={setSelectedPeople}>
-      <Listbox.Button className="bg-white w-auto h-11 relative rounded-xl text-sm font-semibold flex flex-row justify-start items-center pl-3  m-3 lg:w-1/4 ">
-        <MdPeopleAlt className=" text-blue-500 block" />
-        {selectedPeople.value}
-      </Listbox.Button>
+    <div>
+      <Listbox value={selectedPeople} onChange={setSelectedPeople}>
+        <Listbox.Button
+          className="bg-white w-80w h-11 relative rounded-xl text-sm font-semibold flex flex-row justify-start items-center
+         pl-3  m-3 lg:w-10w "
+        >
+          <MdPeopleAlt className=" text-blue-500 block  mr-2" />
+          {selectedPeople.value}
+        </Listbox.Button>
 
-      <Listbox.Options className="w-40 bg-white absolute left-3/4 text-start text-sm font-semibold mt-12 ml-12 cursor-pointer pl-2 ">
-        {people.map((person) => (
-          <Listbox.Option
-            key={person.value}
-            value={person}
-            disabled={person.unavailable}
-          >
-            {person.label}
-          </Listbox.Option>
-        ))}
-      </Listbox.Options>
-    </Listbox>
+        <Listbox.Options className=" w-80w bg-white absolute text-start text-sm font-semibold  cursor-pointer pl-2 lg:w-10w z-10 mx-3">
+          {people.map((person) => (
+            <Listbox.Option
+              key={person.value}
+              value={person}
+              disabled={person.unavailable}
+            >
+              {person.label}
+            </Listbox.Option>
+          ))}
+        </Listbox.Options>
+      </Listbox>
+    </div>
   );
 }
 

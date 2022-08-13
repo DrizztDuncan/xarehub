@@ -76,8 +76,11 @@ Navbar {
 
 /* change ant-time-picker value */
 
-.Harrison.ant-picker {
-  margin: 0.75rem;
+div.ant-picker {
+  padding: 0;
+}
+span.ant-picker-suffix {
+  display: none;
 }
 
 /* Nav hamburger css */
@@ -100,9 +103,6 @@ Navbar {
   align-items: center;
 }
 
-/* .swiper-slide img {
-  width: 10vw;
-} */
 @media (max-width: 1024px) {
   .swiper-slide img {
     width: 40vw;

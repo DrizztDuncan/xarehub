@@ -9,7 +9,7 @@ import SelectTime from "./selectTime";
 
 function HeaderInput() {
   return (
-    <div className="w-80w flex flex-col justify-around	 py-2 bg-blue-2 rounded-2xl lg:flex-row ">
+    <div className=" flex flex-col justify-around py-2 bg-blue-2 rounded-2xl lg:flex-row relative">
       <SelectLocation />
       <SelectSpace />
       <SelectDate />

@@ -8,10 +8,13 @@ import { FaLine } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className=" flex  justify-center bg-blue-1 relative">
-      <div className=" w-80w h-auto lg:h-30v flex justify-center lg:justify-between items-start mt-4 flex-col lg:flex-row">
+      <div className=" w-80w h-auto flex justify-center lg:justify-between items-start mt-4 flex-col lg:flex-row">
         {/* Left Block */}
-        <div className="   flex flex-col justify-between items-start text-blue-3 ">
-          <div className="  w-80w lg:w-30w flex flex-col lg:flex-row justify-center lg:justify-around items-center lg:items-start font-normal	text-3xl	lg:text-lg  ">
+        <div className=" w-80w lg:w-30w  flex flex-col justify-between items-start text-blue-3 ">
+          <div
+            className="  w-80w lg:w-30w flex flex-col lg:flex-row justify-center lg:justify-around lg:items-start 
+          items-center font-normal	text-3xl	lg:text-lg  "
+          >
             <div className="cursor-pointer hover:text-blue-4 my-2 lg:my-0">
               我有空間
             </div>
@@ -30,7 +33,8 @@ const Footer = () => {
           </div>
           <div
             className=" 
-          w-30w lg:w-80w text-base font-medium lg:ml-2 mx-auto mt-8 lg:mt-24 m-0 text-white	cursor-auto	text-center lg:text-left leading-8	 
+          w-80w lg:w-30w text-base font-medium mx-auto mt-8 m-0 text-white	cursor-auto	
+          text-center lg:text-left leading-8	 
           "
           >
             xarehub享聚落
