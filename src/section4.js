@@ -9,9 +9,9 @@ import { GoArrowDown } from "react-icons/go";
 
 const Section4 = () => {
   return (
-    <section className="flex lg:flex-row flex-col justify-center h-100v lg:h-60v relative ">
+    <section className="flex lg:flex-row flex-col justify-evenly w-80w h-100v lg:h-60v relative mx-auto ">
       {/* wrapping each blocks */}
-      <div className="flex lg:flex-row flex-col justify-center items-center mx-3 z-20 ">
+      <div className="flex lg:flex-row flex-col justify-center items-center z-20 ">
         <div>
           <div className="h-[192px]">
             <img src={Sec4Pic1} alt="" />
@@ -20,13 +20,14 @@ const Section4 = () => {
             選擇日期與空間條件
           </div>
         </div>
-        <div className="lg:block hidden mx-3">
-          <img src={Sec4Arr} alt="sec arrow" />
-        </div>
+
         <GoArrowDown className=" text-blue-1 text-5xl block lg:hidden " />
       </div>
+      <div className="lg:block hidden  my-auto">
+        <img src={Sec4Arr} alt="sec arrow" />
+      </div>
       {/* wrapping each blocks */}
-      <div className="flex lg:flex-row flex-col justify-center items-center mx-3 z-20">
+      <div className="flex lg:flex-row flex-col justify-center items-center z-20">
         <div>
           <div className="h-[192px]">
             <img src={Sec4Pic2} alt="" />
@@ -35,13 +36,14 @@ const Section4 = () => {
             App 預約座位或空間
           </div>
         </div>
-        <div className=" lg:block hidden mx-3">
-          <img src={Sec4Arr} alt="sec arrow" />
-        </div>
+
         <GoArrowDown className=" text-blue-1 text-5xl block lg:hidden " />
       </div>
+      <div className=" lg:block hidden  my-auto">
+        <img src={Sec4Arr} alt="sec arrow" />
+      </div>
       {/* wrapping each blocks */}
-      <div className="flex lg:flex-row flex-col justify-center items-center mx-3 z-20">
+      <div className="flex lg:flex-row flex-col justify-center items-center  z-20">
         <div>
           <div className="h-[192px]">
             <img src={Sec4Pic4} alt="" />
@@ -50,13 +52,14 @@ const Section4 = () => {
             自動體溫感測管控
           </div>
         </div>
-        <div className="lg:block mx-3 hidden">
-          <img src={Sec4Arr} alt="sec arrow" />
-        </div>
+
         <GoArrowDown className=" text-blue-1 text-5xl block lg:hidden " />
       </div>
+      <div className="lg:block hidden my-auto">
+        <img src={Sec4Arr} alt="sec arrow" />
+      </div>
       {/* wrapping each blocks */}
-      <div className="flex lg:flex-row flex-col justify-center items-center mx-3 z-20">
+      <div className="flex lg:flex-row flex-col justify-center items-center  z-20">
         <div>
           <div className="h-[192px]">
             <img src={Sec4Pic3} alt="" />
