@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/xarehub/static/css/main.2de90ed6.css",
+    "main.js": "/xarehub/static/js/main.a18ebe02.js",
+    "static/js/787.7d51d41e.chunk.js": "/xarehub/static/js/787.7d51d41e.chunk.js",
+    "static/media/header-pic.jpg": "/xarehub/static/media/header-pic.9d49bdb72fe3bb980fe8.jpg",
+    "static/media/feature-2.jpg": "/xarehub/static/media/feature-2.b45fcca70aed3255dc0b.jpg",
+    "static/media/sec_pic_1.jpg": "/xarehub/static/media/sec_pic_1.092b0df17d44dad91d5e.jpg",
+    "static/media/feature-3.jpg": "/xarehub/static/media/feature-3.40ea6d321e3642698e61.jpg",
+    "static/media/carousel-4.jpeg": "/xarehub/static/media/carousel-4.ebd9bfddd07d757e5d7f.jpeg",
+    "static/media/carousel-5.jpeg": "/xarehub/static/media/carousel-5.324614c27f3c9ac87556.jpeg",
+    "static/media/carousel-1.jpeg": "/xarehub/static/media/carousel-1.a8b1bfd05ba05235acc3.jpeg",
+    "static/media/carousel-3.jpeg": "/xarehub/static/media/carousel-3.c358fbf5b1a6f762f520.jpeg",
+    "static/media/Group356.svg": "/xarehub/static/media/Group356.32c95a72fa269910157315029e55dd19.svg",
+    "static/media/carousel-2.jpeg": "/xarehub/static/media/carousel-2.4c6a61053f7dba621dd5.jpeg",
+    "static/media/Group357.svg": "/xarehub/static/media/Group357.6254e0883d945c81ef8cc4c74cb4d509.svg",
+    "static/media/Group358.svg": "/xarehub/static/media/Group358.af9af7f7e36de05a7dd3bf15663bbb91.svg",
+    "static/media/Logo.svg": "/xarehub/static/media/Logo.496734b50767a8ee388fee1f9e7b9105.svg",
+    "static/media/Group355.svg": "/xarehub/static/media/Group355.74024bacd16e2e860e7ce0cb72bb862a.svg",
+    "static/media/Background_01.svg": "/xarehub/static/media/Background_01.3e1241af4677c31c898a42f9b30add2f.svg",
+    "static/media/hexagon-svgrepo-com.svg": "/xarehub/static/media/hexagon-svgrepo-com.7ac1e8eb1b4bf68c3b53cd50728e381e.svg",
+    "index.html": "/xarehub/index.html",
+    "static/media/triangleBg.svg": "/xarehub/static/media/triangleBg.299eb39c21e623ea7f15898f401b1345.svg",
+    "static/media/triangleBg_1.svg": "/xarehub/static/media/triangleBg_1.c2a4c179b7708cc6cd01e7c1e29ad96a.svg",
+    "static/media/Path248.svg": "/xarehub/static/media/Path248.ac8c871f8c56d25fdb823703ac9cf730.svg",
+    "static/media/arrow.svg": "/xarehub/static/media/arrow.ed1345d4937daa1b2706ace2c23a514d.svg",
+    "main.2de90ed6.css.map": "/xarehub/static/css/main.2de90ed6.css.map",
+    "main.a18ebe02.js.map": "/xarehub/static/js/main.a18ebe02.js.map",
+    "787.7d51d41e.chunk.js.map": "/xarehub/static/js/787.7d51d41e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2de90ed6.css",
+    "static/js/main.a18ebe02.js"
+  ]
+}
