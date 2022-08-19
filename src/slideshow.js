@@ -18,24 +18,51 @@ import Caroul_5 from "./img/carousel-5.jpeg";
 
 export default function SlideShow() {
   return (
-    <div className=" flex items-center my-24">
-      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-        <SwiperSlide>
-          <img src={Caroul_1} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Caroul_2} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Caroul_3} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Caroul_4} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Caroul_5} />
-        </SwiperSlide>
-      </Swiper>
-    </div>
+    <>
+      <div className=" lg:flex items-center my-24 hidden">
+        <Swiper
+          loop={true}
+          navigation={true}
+          modules={[Navigation]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <img src={Caroul_1} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Caroul_2} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Caroul_3} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Caroul_4} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Caroul_5} />
+          </SwiperSlide>
+        </Swiper>
+      </div>
+      {/* mobile */}
+      <div className=" flex items-center my-2 lg:hidden">
+        <Swiper navigation={false} loop={true} className="mySwiper">
+          <SwiperSlide>
+            <img src={Caroul_1} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Caroul_2} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Caroul_3} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Caroul_4} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Caroul_5} />
+          </SwiperSlide>
+        </Swiper>
+      </div>
+    </>
   );
 }

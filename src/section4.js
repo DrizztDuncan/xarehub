@@ -9,7 +9,7 @@ import { GoArrowDown } from "react-icons/go";
 
 const Section4 = () => {
   return (
-    <section className="flex lg:flex-row flex-col justify-center h-auto lg:h-60v ">
+    <section className="flex lg:flex-row flex-col justify-center h-100v lg:h-60v relative ">
       {/* wrapping each blocks */}
       <div className="flex lg:flex-row flex-col justify-center items-center mx-3 z-20 ">
         <div>

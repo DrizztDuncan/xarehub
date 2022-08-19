@@ -11,6 +11,11 @@
   list-style: none;
 }
 
+nav a {
+  color: white; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
 nav {
   display: flex;
   justify-content: center;
@@ -19,7 +24,7 @@ nav {
 }
 
 Navbar {
-  background-color: #000e36;
+  background-color: #001144;
 }
 
 .App-link {
@@ -76,8 +81,11 @@ Navbar {
 
 /* change ant-time-picker value */
 
-.Harrison.ant-picker {
-  margin: 0.75rem;
+div.ant-picker {
+  padding: 0;
+}
+span.ant-picker-suffix {
+  display: none;
 }
 
 /* Nav hamburger css */
@@ -89,23 +97,21 @@ Navbar {
   display: block;
   position: absolute;
   width: 100%;
-  height: 100vh;
+  height: 60vh;
   top: 0;
   left: 0;
-  background: white;
+  background: #001144;
   z-index: 10;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+  letter-spacing: 0.5rem;
 }
 
-/* .swiper-slide img {
-  width: 10vw;
-} */
 @media (max-width: 1024px) {
   .swiper-slide img {
-    width: 40vw;
+    width: 60vw;
   }
   .swiper {
     height: 70vh;

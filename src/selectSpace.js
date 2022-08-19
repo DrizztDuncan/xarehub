@@ -14,24 +14,29 @@ const space = [
 function SelectSpace() {
   const [selectedSpace, setSelectedSpace] = useState(space[0]);
   return (
-    <Listbox value={selectedSpace} onChange={setSelectedSpace}>
-      <Listbox.Button className="bg-white w-auto h-11 relative rounded-xl text-sm font-semibold flex flex-row justify-start items-center pl-3  m-3 lg:w-1/4 ">
-        <HiOutlineOfficeBuilding className=" text-blue-500 block" />
-        {selectedSpace.name}
-      </Listbox.Button>
+    <div>
+      <Listbox value={selectedSpace} onChange={setSelectedSpace}>
+        <Listbox.Button
+          className="bg-white w-80w h-11 relative rounded-xl text-sm font-semibold flex flex-row 
+        justify-start items-center pl-3  m-3 lg:w-20w "
+        >
+          <HiOutlineOfficeBuilding className=" text-blue-500 block  mr-2" />
+          {selectedSpace.name}
+        </Listbox.Button>
 
-      <Listbox.Options className="w-1/4 bg-white absolute left-1/3 text-start text-sm font-semibold mt-12 ml-2 cursor-pointer pl-2 ">
-        {space.map((person) => (
-          <Listbox.Option
-            key={person.id}
-            value={person}
-            disabled={person.unavailable}
-          >
-            {person.name}
-          </Listbox.Option>
-        ))}
-      </Listbox.Options>
-    </Listbox>
+        <Listbox.Options className="w-80w lg:w-20w bg-white absolute text-start text-sm font-semibold mx-3 cursor-pointer pl-2 z-10 ">
+          {space.map((person) => (
+            <Listbox.Option
+              key={person.id}
+              value={person}
+              disabled={person.unavailable}
+            >
+              {person.name}
+            </Listbox.Option>
+          ))}
+        </Listbox.Options>
+      </Listbox>
+    </div>
   );
 }
 
