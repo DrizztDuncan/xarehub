@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/xarehub/static/css/main.2de90ed6.css",
+    "main.css": "/xarehub/static/css/main.5a558759.css",
     "main.js": "/xarehub/static/js/main.a18ebe02.js",
     "static/js/787.7d51d41e.chunk.js": "/xarehub/static/js/787.7d51d41e.chunk.js",
     "static/media/header-pic.jpg": "/xarehub/static/media/header-pic.9d49bdb72fe3bb980fe8.jpg",
@@ -24,12 +24,12 @@
     "static/media/triangleBg_1.svg": "/xarehub/static/media/triangleBg_1.c2a4c179b7708cc6cd01e7c1e29ad96a.svg",
     "static/media/Path248.svg": "/xarehub/static/media/Path248.ac8c871f8c56d25fdb823703ac9cf730.svg",
     "static/media/arrow.svg": "/xarehub/static/media/arrow.ed1345d4937daa1b2706ace2c23a514d.svg",
-    "main.2de90ed6.css.map": "/xarehub/static/css/main.2de90ed6.css.map",
+    "main.5a558759.css.map": "/xarehub/static/css/main.5a558759.css.map",
     "main.a18ebe02.js.map": "/xarehub/static/js/main.a18ebe02.js.map",
     "787.7d51d41e.chunk.js.map": "/xarehub/static/js/787.7d51d41e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2de90ed6.css",
+    "static/css/main.5a558759.css",
     "static/js/main.a18ebe02.js"
   ]
 }
