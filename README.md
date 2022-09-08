@@ -17,24 +17,26 @@
 
 
 ## General Information
-- Use React.js
-- Create using React.js, Tailwind css, Ant Design UI library
-- What is the purpose of your project?
-- Why did you undertake it?
+- Building a responsive design web page
+- Use different UI libraries
+- Practice React.js's hook function
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- React.js - version 18.1.0
+- Tailwind css - version 3.1.1
+- Ant design - version 4.21.4
+- Swiper - version 8.3.1
+- Headless UI - version 1.6.6
 
 
 ## Features
 List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+- Drop down menu
+- Carousell 
+- Calendar, time select function
+- Scroll back to top function
 
 
 ## Screenshots
