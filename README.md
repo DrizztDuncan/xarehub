@@ -1,5 +1,5 @@
 # xarehub
-> Outline a brief description of your project.
+> A web page with responsive design.
 > Live demo [_here_](https://drizztduncan.github.io/xarehub/). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
@@ -17,8 +17,8 @@
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
+- Use React.js
+- Create using React.js, Tailwind css, Ant Design UI library
 - What is the purpose of your project?
 - Why did you undertake it?
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
