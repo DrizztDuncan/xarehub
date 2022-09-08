@@ -50,23 +50,16 @@ What are the project requirements/dependencies? Where are they listed? A require
 Proceed to describe how to install / setup one's local environment / get started with the project.
 
 
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
-
-
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+Project is: _on going_ some components can have adjusments.
 
 
 ## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
+Responsive design better develope from mobile to web device.
 
 Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
+- Carousell needs to resize in pad device
+- footer's contents are missing in pad device
 
 To do:
 - Feature to be added 1
