@@ -32,7 +32,6 @@
 
 
 ## Features
-https://drive.google.com/file/d/1RWlmHY8WdMGiNEXShSplQBveSn7FhNMA/view?usp=sharing
 List the ready features here:
 - Drop down menu
 - Carousell 
