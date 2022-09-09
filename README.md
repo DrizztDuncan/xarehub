@@ -73,7 +73,7 @@ To do:
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by [xarehub]([url](https://xarehub.com/en-US)) offecial site.
+- This project was inspired by [xarehub](https://xarehub.com/en-US) offecial site.
 - Many thanks to frontend developers from [Taiwan Code Camp](https://taiwancodecamp.com/)
 
 
