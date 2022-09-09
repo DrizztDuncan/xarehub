@@ -1,4 +1,6 @@
 # xarehub
+
+![rwd](https://user-images.githubusercontent.com/39251171/189364753-3cb7c9f7-1d66-42ec-a9d7-9f5a60571d8c.gif)
 > A web page with responsive design.
 > Live demo [_here_](https://drizztduncan.github.io/xarehub/). <!-- If you have the project hosted somewhere, include the link here. -->
 
@@ -7,7 +9,6 @@
 * [Technologies Used](#technologies-used)
 * [Features](#features)
 * [Screenshots](#screenshots)
-* [Setup](#setup)
 * [Usage](#usage)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
@@ -47,12 +48,6 @@ List the ready features here:
 ## Screenshots
 ![Example screenshot](./src/img/Screenshot.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
-
-
-## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
 
 
 ## Project Status
