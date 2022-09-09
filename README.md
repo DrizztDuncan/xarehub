@@ -30,9 +30,10 @@
 - Headless UI - version 1.6.6
 
 
-## [Features](./src/img/carousell.gif)
+## Features
 List the ready features here:
 - Drop down menu
+![carousell demo](./src/img/carousell.gif)
 - Carousell(./src/img/carousell.gif)
 - Calendar, time select function
 - Scroll back to top function
