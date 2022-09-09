@@ -32,8 +32,8 @@
 
 ## Features
 List the ready features here:
+![dropdown](https://user-images.githubusercontent.com/39251171/189362163-9070ac80-02dc-435f-8ff7-58c58ce21a0d.gif)
 - Drop down menu
-![carousell demo](./src/img/carousell.gif)
 - Carousell
 - Calendar, time select function
 - Scroll back to top function
