@@ -51,30 +51,29 @@ Proceed to describe how to install / setup one's local environment / get started
 
 
 ## Project Status
-Project is: _on going_ some components can have adjusments.
+Project is: _on going_
 
 
 ## Room for Improvement
-Responsive design better develope from mobile to web device.
+Responsive design better develope from mobile device to web device.
 
 Room for improvement:
 - Carousell needs to resize in pad device
 - footer's contents are missing in pad device
 
 To do:
-- Feature to be added 1
-- Feature to be added 2
+- Resize carousell's img size
+- Adjust footer's content size
 
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
+- This project was inspired by xarehub offecial site.
+- Many thanks to frontend developers from [Taiwan Code Camp](https://taiwancodecamp.com/)
 
 
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+<!-- ## Contact -->
+<!-- Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me! -->
 
 
 <!-- Optional -->
