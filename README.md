@@ -32,7 +32,7 @@
 
 
 ## Features
-./src/img/carousell.gif
+[./src/img/carousell.gif]
 List the ready features here:
 - Drop down menu
 - Carousell 
