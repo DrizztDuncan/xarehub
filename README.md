@@ -33,7 +33,7 @@
 ## [Features](./src/img/carousell.gif)
 List the ready features here:
 - Drop down menu
-- Carousell
+- Carousell(./src/img/carousell.gif)
 - Calendar, time select function
 - Scroll back to top function
 
