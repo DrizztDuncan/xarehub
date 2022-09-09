@@ -31,7 +31,7 @@
 - Headless UI - version 1.6.6
 
 
-## ![Features](./src/img/carousell.gif)
+## [Features](./src/img/carousell.gif)
 List the ready features here:
 - Drop down menu
 - Carousell
