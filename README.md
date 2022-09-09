@@ -34,7 +34,7 @@
 List the ready features here:
 - Drop down menu
 ![carousell demo](./src/img/carousell.gif)
-- Carousell(./src/img/carousell.gif)
+- Carousell
 - Calendar, time select function
 - Scroll back to top function
 
