@@ -5,6 +5,8 @@
 > <br/>
 <!-- > <p>Check out <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">freeCodeCamp</a></p> -->
 > <a href="https://drizztduncan.github.io/xarehub/" target="_blank" rel="noopener"><span>Live Demo</span></a>
+> <p>Check out <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">freeCodeCamp</a>.</p>
+<!-- source https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/ -->
 
 ## Table of Contents
 * [General Info](#general-information)
