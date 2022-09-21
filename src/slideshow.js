@@ -25,6 +25,7 @@ export default function SlideShow() {
           navigation={true}
           modules={[Navigation]}
           className="mySwiper"
+          slidesPerView={5}
         >
           <SwiperSlide>
             <img src={Caroul_1} />
