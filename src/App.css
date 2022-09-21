@@ -68,7 +68,7 @@ Navbar {
 } */
 
 .swiper {
-  width: 100%;
+  width: 96%;
   height: 60vh;
 }
 
@@ -108,6 +108,11 @@ Navbar {
 
 .swiper-slide-active img {
   border-radius: 30px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: block;
 }
 
 /* change ant-time-picker value */
