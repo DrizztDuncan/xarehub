@@ -3,7 +3,8 @@
 ![rwd](https://user-images.githubusercontent.com/39251171/189364753-3cb7c9f7-1d66-42ec-a9d7-9f5a60571d8c.gif)
 > A web page with responsive design.
 > <br/>
-> <a href="https://drizztduncan.github.io/xarehub/" target="_blank">Live Demo</a>
+> [Live Demo](https://drizztduncan.github.io/xarehub/){:target="_blank"}
+
 
 ## Table of Contents
 * [General Info](#general-information)
