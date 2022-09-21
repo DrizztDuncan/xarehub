@@ -22,6 +22,7 @@ function SelectTime() {
      w-70w lg:w-[8vw] lg:m-0 "
         onChange={onChange}
         defaultValue={moment("00:00:00", "HH:mm:ss")}
+        clearIcon
       />
     </div>
   );

@@ -19,6 +19,52 @@ import Caroul_5 from "./img/carousel-5.jpeg";
 export default function SlideShow() {
   return (
     <>
+      {/* new */}
+
+      {/* <div className="swiper-container">
+        <div className="swiper-wrapper">
+          <div className="swiper-slide">
+            <img
+              src="//into-the-program.com/demo/images/sample010.jpg"
+              alt=""
+            />
+          </div>
+          <div className="swiper-slide">
+            <img
+              src="//into-the-program.com/demo/images/sample005.jpg"
+              alt=""
+            />
+          </div>
+          <div className="swiper-slide">
+            <img
+              src="//into-the-program.com/demo/images/sample012.jpg"
+              alt=""
+            />
+          </div>
+          <div className="swiper-slide">
+            <img
+              src="//into-the-program.com/demo/images/sample007.jpg"
+              alt=""
+            />
+          </div>
+          <div className="swiper-slide">
+            <img
+              src="//into-the-program.com/demo/images/sample008.jpg"
+              alt=""
+            />
+          </div>
+          <div className="swiper-slide">
+            <img
+              src="//into-the-program.com/demo/images/sample009.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div className="swiper-button-next"></div>
+        <div className="swiper-button-prev"></div>
+      </div> */}
+
+      {/* origin */}
       <div className=" lg:flex items-center my-24 hidden">
         <Swiper
           loop={true}
