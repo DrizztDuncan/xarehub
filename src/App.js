@@ -20,7 +20,7 @@ function App() {
       <header className=" relative flex justify-center align-center">
         <Navbar />
       </header>
-      <img src={landing} alt="" className="" />
+      <img src={landing} alt="" className="w-100w" />
       <main className=" top-0 lg:top-20 w-100w block relative ">
         <img
           src={frame}
