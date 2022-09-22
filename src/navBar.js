@@ -1,7 +1,7 @@
 import React, { useState, Fragment, useEffect } from "react";
 import "./App.css";
 import { Listbox } from "@headlessui/react";
-import logo from "./Logo.svg";
+import logo from "./img/logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import BurgerDD from "./burgerDD";
 
@@ -11,7 +11,7 @@ import BurgerDD from "./burgerDD";
 const Navbar = () => {
   const [navColor, setnavColor] = useState("transparent");
   const listenScrollEvent = () => {
-    window.scrollY > 10 ? setnavColor("#001144") : setnavColor("transparent");
+    window.scrollY > 10 ? setnavColor("#310036") : setnavColor("transparent");
     // window.scrollY > 10 ? setnavSize("5rem") : setnavSize("10rem");
   };
 
@@ -40,23 +40,23 @@ const Navbar = () => {
       }}
     >
       <div className="flex items-center justify-between w-80w">
-        <img src={logo} alt="logo" />
+        <img src={logo} alt="logo" className="w-24" />
         <ul className=" hidden justify-between items-center w-1/2 lg:flex ">
           <li className="cursor-pointer text-white text-base font-normal text-center w-full hover:text-blue-4">
-            聚落據點
+            News
           </li>
           <li className="cursor-pointer text-white text-base font-normal text-center w-full hover:text-blue-4">
-            會籍方案
+            Live
           </li>
           <li className="cursor-pointer text-white text-base font-normal text-center w-full hover:text-blue-4">
-            預約參觀
+            Music
           </li>
           <li className="cursor-pointer text-white text-base font-normal text-center w-full hover:text-blue-4">
-            免費體驗
+            Store
           </li>
-          <li className="cursor-pointer text-emerald-400 text-base font-normal text-center w-full hover:text-blue-4">
+          {/* <li className="cursor-pointer text-emerald-400 text-base font-normal text-center w-full hover:text-blue-4">
             下載APP
-          </li>
+          </li> */}
         </ul>
         {/* https://codesandbox.io/s/tailwind-react-hamburger-menu-tjhfyx?file=/src/components/Header/Header.js:343-1993 */}
         <section className="MOBILE-MENU flex lg:hidden ">
@@ -90,19 +90,16 @@ const Navbar = () => {
             </div>
             <ul className="flex flex-col items-center justify-between min-h-[200px]">
               <li className=" w-80w mx-auto my-3 uppercase text-3xl font-black	active:ring ring-white active:bg-blue-800 rounded-lg text-center">
-                <a className="text-white active:text-blue-300">聚落據點</a>
+                <a className="text-white active:text-blue-300">News</a>
               </li>
               <li className=" w-80w mx-auto my-3 uppercase text-3xl font-black	active:ring ring-white active:bg-blue-800 rounded-lg text-center">
-                <a className="text-white active:text-blue-300">會籍方案</a>
+                <a className="text-white active:text-blue-300">Live</a>
               </li>
               <li className=" w-80w mx-auto my-3 uppercase text-3xl font-black	active:ring ring-white active:bg-blue-800 rounded-lg text-center">
-                <a className="text-white active:text-blue-300">預約參觀</a>
+                <a className="text-white active:text-blue-300">Music</a>
               </li>
               <li className=" w-80w mx-auto my-3 uppercase text-3xl font-black	active:ring ring-white active:bg-blue-800 rounded-lg text-center">
-                <a className="text-white active:text-blue-300">免費體驗</a>
-              </li>
-              <li className="  w-80w mx-auto my-3 uppercase text-3xl font-black	active:ring ring-white active:bg-blue-800 rounded-lg text-center">
-                <a className="text-white active:text-blue-300">下載APP</a>
+                <a className="text-white active:text-blue-300">Store</a>
               </li>
             </ul>
           </div>

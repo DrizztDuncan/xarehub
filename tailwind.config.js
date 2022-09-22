@@ -1,15 +1,13 @@
 /** @type {import('tailwindcss').Config} */
-const plugin = require('tailwindcss/plugin')
+const plugin = require("tailwindcss/plugin");
 
 module.exports = {
-  content: [
-    "./src/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./src/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       backgroundImage: {
-        'theme-bg': 'url("./Background_01.svg")',
-        'theme-bg-2': 'url("./img/Background_02.svg")',
+        "theme-bg": 'url("./Background_01.svg")',
+        "theme-bg-2": 'url("./img/Background_02.svg")',
       },
 
       height: {
@@ -22,7 +20,7 @@ module.exports = {
         "70v": "70vh",
         "80v": "80vh",
         "90v": "90vh",
-        "d319h": "319px"
+        d319h: "319px",
       },
 
       width: {
@@ -36,7 +34,7 @@ module.exports = {
         "80w": "80vw",
         "90w": "90vw",
         "100w": "100vw",
-        "d475w": "475px",
+        d475w: "475px",
       },
 
       fontSize: {
@@ -48,12 +46,12 @@ module.exports = {
         "blue-2": "#ebedff",
         "blue-3": "#2debd7",
         "blue-4": "#1890ff",
+        "footer-back": "#204059",
       },
-
     },
   },
   plugins: [
-    plugin(function({ addUtilities }) {
+    plugin(function ({ addUtilities }) {
       addUtilities({
         // '.content-hidden': {
         //   'content-visibility': 'hidden',
@@ -61,7 +59,7 @@ module.exports = {
         // '.content-visible': {
         //   'content-visibility': 'visible',
         // },
-      })
-    })
+      });
+    }),
   ],
-}
+};
