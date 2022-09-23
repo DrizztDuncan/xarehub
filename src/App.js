@@ -1,4 +1,3 @@
-import frame from "./Background_01.svg";
 import Navbar from "./navBar";
 import landing from "./img/landing.png";
 import HeaderInput from "./headerInput";
@@ -22,11 +21,6 @@ function App() {
       </header>
       <img src={landing} alt="" className="w-100w" />
       <main className=" top-0 lg:top-20 w-100w block relative ">
-        <img
-          src={frame}
-          className="absolute top-20 lg:-top-10 left-0 w-full overflow-hidden -z-40 "
-          alt="frame"
-        />
         <section className=" h-full lg:h-80v w-90w flex justify-start items-center flex-col mx-auto pt-20 lg:pt-48 ">
           <h1 className=" h-24 text-center pt-4 lg:pt-0 text-white text-4xl lg:text-5xl font-black drop-shadow-[2px_2px_2px_rgba(0,0,0,1)]">
             BRINGING YOU ONLY THE BEST EDM - TRAP

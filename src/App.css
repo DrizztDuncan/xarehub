@@ -88,7 +88,8 @@ nav {
 
 .swiper-button-prev,
 .swiper-button-next {
-  display: block;
+  /* display: block; */
+  color: black;
 }
 
 /* change ant-time-picker value */
