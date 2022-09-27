@@ -1,5 +1,5 @@
 import "./App.css";
-import SecPic3 from "./img/feature-3.jpg";
+import SecPic3 from "./img/Pic3.png";
 
 const Section3 = () => {
   return (
@@ -7,12 +7,13 @@ const Section3 = () => {
       <div className=" flex flex-col justify-center items-center  mx-6 lg:flex-row">
         <div className=" h-[169px] lg:w-d475w lg:d319h flex justify-center items-center flex-col ">
           <div className=" text-2xl font-bold text-blue-1 lg:text-5xl ">
-            彈性方案由你組合
+            Jade Key & BrillLion - Heartbreak (feat. ALYE)
           </div>
           <div className=" text-sm mt-3 font-semibold lg:text-base  text-center lg:text-left">
-            就是享受不綁約的自由！ xarehub享聚落
-            核心理念是提供最適合你與團隊的彈性空
-            間選擇，自主管理時間、自助組合空間，讓你的時間使用 效益翻倍。
+            🎧 Follow Nightblue on Apple Music ↪︎ http://bit.ly/NB3AppleMusic 🎧
+            Follow Nightblue on Deezer ↪︎ http://bit.ly/NB3Deezer 🎧 Follow
+            Nightblue on Spotify ↪︎ http://bit.ly/NB3Spotify 🎧 No Copyright
+            Playlist ↪︎ http://bit.ly/NB3NoCopyrightPlaylist
           </div>
         </div>
         <figure className="  mx-6">

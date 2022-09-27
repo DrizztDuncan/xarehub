@@ -10,11 +10,11 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper";
 
 // install carousel img
-import Caroul_1 from "./img/carousel-1.jpeg";
-import Caroul_2 from "./img/carousel-2.jpeg";
-import Caroul_3 from "./img/carousel-3.jpeg";
-import Caroul_4 from "./img/carousel-4.jpeg";
-import Caroul_5 from "./img/carousel-5.jpeg";
+import Caroul_1 from "./img/neoni.png";
+import Caroul_2 from "./img/neovaii.jpg";
+import Caroul_3 from "./img/jadekey.jpg";
+import Caroul_4 from "./img/Blanke.webp";
+import Caroul_5 from "./img/ninachuba.webp";
 
 export default function SlideShow() {
   return (

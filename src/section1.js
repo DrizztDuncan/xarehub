@@ -1,5 +1,5 @@
 import "./App.css";
-import SecPic1 from "./img/sec_pic_1.jpg";
+import SecPic1 from "./img/Pic1.png";
 
 const Section1 = () => {
   return (
@@ -7,12 +7,19 @@ const Section1 = () => {
       <div className=" flex flex-col justify-center items-center  mx-6 lg:flex-row">
         <div className="h-[169px] lg:w-d475w lg:d319h flex justify-center items-center flex-col ">
           <div className=" text-3xl font-bold text-blue-1 lg:text-5xl text-center">
-            共享中的獨享
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=4wfm2XjGyUM&list=PLBacOIBxGzbpm3nRPsyax5TkEtbSBKPi-&index=4"
+              rel="noreferrer"
+            >
+              HOPEX - Insanity
+            </a>
           </div>
           <div className=" text-sm mt-3 font-semibold lg:text-base text-center lg:text-left">
-            首創訂閱制空間會籍：App 上隨時預約座位，享受工作、
-            學習、社交、創意空間零時差。
-            空間設計滿足共享環境中相互激盪想法，獨享單人亭中專 注自我實現。
+            🎧 Follow Nightblue on Apple Music ↪︎ http://bit.ly/NB3AppleMusic 🎧
+            Follow Nightblue on Deezer ↪︎ http://bit.ly/NB3Deezer 🎧 Follow
+            Nightblue on Spotify ↪︎ http://bit.ly/NB3Spotify 🎧 No Copyright
+            Playlist ↪︎ http://bit.ly/NB3NoCopyrightPlaylist
           </div>
         </div>
         <img
