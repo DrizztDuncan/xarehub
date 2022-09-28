@@ -5,10 +5,10 @@ import { IconName } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";
 
 const branch = [
-  { id: 1, name: "復北慶城", unavailable: false },
-  { id: 2, name: "享健身xarefit 信義松仁店", unavailable: false },
-  { id: 3, name: "xarehub 直播室", unavailable: false },
-  { id: 4, name: "鍛鍊基地 (Workout base)", unavailable: false },
+  { id: 1, name: "Twitch", unavailable: false },
+  { id: 2, name: "Youtube", unavailable: false },
+  { id: 3, name: "Spotify", unavailable: false },
+  { id: 4, name: "SoundCloud", unavailable: false },
 ];
 
 function SelectLocation() {
