@@ -39,13 +39,13 @@
 
 List the ready features here:
 
-- Carousell
+- Carousell <br/>
  ![carousell](https://user-images.githubusercontent.com/39251171/189362610-d633d553-ecb7-4523-931d-43a9d47b3024.gif) 
  
-- Calendar, time select function
+- Calendar, time select function  <br/>
 ![dropdown](https://user-images.githubusercontent.com/39251171/189362163-9070ac80-02dc-435f-8ff7-58c58ce21a0d.gif)
 
-- Scroll back to top function
+- Scroll back to top function  <br/>
 ![scrolltotop](https://user-images.githubusercontent.com/39251171/189363345-910ad73d-03ee-4d2a-a2b6-8b031d5c45fc.gif)
 ## Screenshots
 
